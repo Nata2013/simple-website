@@ -1,0 +1,68 @@
+/*
+ CSS HEX 
+--black: #000000;
+--oxford-blue: #14213d;
+--orange-web: #fca311;
+--platinum: #e5e5e5;
+--white: #ffffff;
+*/
+ 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+ 
+.header {
+  background-color: #14213d;
+  color: #ffffff;
+  text-align: center;
+  height: 20%;
+  font-size: 3em;
+  line-height: 50px;
+  padding-top: 30px;
+}
+ 
+.navbar {
+  background-color: #e5e5e5;
+  padding-left: 50px;
+}
+ 
+.navbar a {
+  float: left;
+  display: block;
+  text-decoration: none;
+  padding: 12px 15px;
+  text-align: center;
+  color: #000000;
+}
+ 
+.navbar a:hover {
+  color: #e5e5e5;
+  background-color: #14213d;
+  cursor: grab;
+}
+ 
+.main {
+  clear: both;
+  border: 1px solid #fca311;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 50%;
+}
+ 
+.footer {
+  background-color: #14213d;
+  color: #ffffff;
+  text-align: center;
+  height: 10%;
+  font-size: 1em;
+  padding-top: 20px;
+}
+ 
+@media (max-width:600px) {
+  .navbar {
+    background-color: #e5e5e5;
+    padding-left: 0px;
+  }
+}
